@@ -1,0 +1,123 @@
+<html lang="en" webcrx=""><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STM - Coming Soon</title>
+
+    <link rel="icon" type="image/svg+xml" href="images/Favicon.webp">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script><script src="blob:https://www.stm-developments.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <script>
+      function resizeVideo() {
+        const video = document.querySelector(".hero-video");
+        if (!video) return;
+
+        const badge = document.querySelector(".badge");
+        const title = document.querySelector(".title");
+        const subtitle = document.querySelector(".subtitle");
+
+        const topSpace = badge.offsetHeight + title.offsetHeight + 120; // padding
+        const bottomSpace = subtitle.offsetHeight + 100;
+
+        const maxH = window.innerHeight - (topSpace + bottomSpace);
+
+        video.style.maxHeight = maxH + "px";
+      }
+
+      window.addEventListener("load", resizeVideo);
+      window.addEventListener("resize", resizeVideo);
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="background"></div>
+      <div class="overlay"></div>
+
+      <div class="content fade-in">
+        <header class="header">
+          <div class="header-inner">
+            <div class="logo-box">
+              <img src="images/STM Logos Light.webp" alt="STM Logo" class="logo-img">
+            </div>
+          </div>
+        </header>
+
+        <main class="main">
+          <div class="badge">COMING SOON</div>
+
+          <h1 class="title">
+            Powering What’s
+            <span>Possible</span>
+          </h1>
+
+          <video class="hero-video" autoplay="" muted="" loop="" playsinline="" style="max-height: 604px;">
+            <source src="stm-brand.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <p class="subtitle">
+            STM stands as Egypt’s most trusted investment arm — a catalyst for
+            growth, progress, and lasting value across key sectors.
+          </p>
+
+          <div class="features">
+            <div class="feature">
+              <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="bar-chart-3" aria-hidden="true" class="lucide lucide-bar-chart-3"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg></div>
+              <h3>Strategic Sectors</h3>
+              <p>
+                Investing in vital industries that drive Egypt’s growth and
+                long-term sustainability.
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="target" aria-hidden="true" class="lucide lucide-target"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></div>
+              <h3>Vision &amp; Discipline</h3>
+              <p>
+                Turning ambition into impact through disciplined planning and
+                execution.
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trending-up" aria-hidden="true" class="lucide lucide-trending-up"><path d="M16 7h6v6"></path><path d="m22 7-8.5 8.5-5-5L2 17"></path></svg></div>
+              <h3>Transforming Opportunities</h3>
+              <p>
+                Unlocking potential and creating ventures that set new standards
+                for quality and reliability.
+              </p>
+            </div>
+          </div>
+        </main>
+
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-left">
+              <div class="footer-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" aria-hidden="true" class="lucide lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
+                <a href="tel:+201114456660">17333</a>
+              </div>
+              <div class="footer-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" aria-hidden="true" class="lucide lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+                <a href="mailto:info@stm-developments.com">info@stm-developments.com</a>
+              </div>
+              <div class="footer-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" aria-hidden="true" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <a href="https://maps.app.goo.gl/bhcnJrZ1s61FbTFq6">East Plaza, Intersection of South 90th Street and Mohamed
+                  Naguib Axis, New Cairo, Egypt</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">© 2026 STM. All rights reserved.</div>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  
+
+</body></html>
